@@ -1,0 +1,29 @@
+{##
+ # Header
+ #
+ # @ListChild (list="welcome.small.banners.vertical", weight="100")
+ #}
+
+<div class="vertical-block">
+    {% if this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_image %}
+        <img src="{{ this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_image }}" alt="" />
+    {% endif %}
+
+    <div class="text-content">
+        <div>
+            <div>
+                {% if this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_text_link %}
+                    <h2>
+                        {% if this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_link %}
+                        <a href="{{ this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_link }}">
+                        {% endif %}
+                            {{ this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_text_link }}
+                        {% if this.config.JThemesStudio.The80sMod.type2_bottom_vbanner_link %}
+                        </a>
+                        {% endif %}
+                    </h2>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

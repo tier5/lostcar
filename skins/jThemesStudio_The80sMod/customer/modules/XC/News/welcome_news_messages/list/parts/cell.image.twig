@@ -1,0 +1,10 @@
+{##
+ # News messages :: date cell
+ #
+ # @ListChild (list="itemsList.newsMessages.customer.top.wrow", weight="50")
+ #}
+<div class="newsMessagePhoto">
+    <a href="{{ url('news_message', '', {'id': this.model.id}) }}">
+        {{ widget('\\XLite\\View\\Image', image=this.model.image, alt=this.model.name) }}
+    </a>
+</div>

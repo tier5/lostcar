@@ -1,0 +1,16 @@
+{##
+ # Header bar
+ #
+ #}
+
+<div class="favorite-block{% if not this.config.JThemesStudio.The80sMod.type2_favorite_banner_enable %} fullwidth{% endif %}">
+    <div class="container">
+        {% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_enable %}
+        <div class="title-wrap">
+            <h2 class="section-title">{{ t('Choose your favorite') }}</h2>
+            <p class="sub-detail">{{ t('Try your Best') }}</p>
+        </div>
+        {% endif %}
+        {{ widget_list('welcome.favorite.block') }}
+    </div>
+</div>

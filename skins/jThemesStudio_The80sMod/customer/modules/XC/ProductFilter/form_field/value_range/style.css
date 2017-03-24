@@ -1,0 +1,90 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Styles
+ *
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+.value-range .ui-slider-horizontal .ui-slider-range {
+  background: #d5292c;
+}
+
+.value-range .ui-slider-horizontal .ui-state-active {
+  background: #fff;
+}
+
+.value-range .ui-slider-horizontal {
+  height: 3px;
+  background: #e0e0e0;
+  border: none;
+  margin: 20px 0 30px 0;
+}
+
+.value-range .ui-slider .ui-slider-handle {
+    background-color: #d5292c;
+    background-image: none;
+    border: 2px solid #ffffff;
+    border-radius: 1em;
+    height: 12px;
+    top: -5px;
+    width: 12px;
+}
+
+.value-range .ui-slider .ui-slider-handle:before{
+    border: 2px solid #d5292c;
+    border-radius: 1em;
+    bottom: -4px;
+    content: "";
+    height: 16px;
+    left: -4px;
+    margin: auto;
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    width: 16px;
+}
+
+.value-range .ui-state-default {
+  background: #f8f8f8;
+}
+
+.value-range {
+  padding: 20px 0;
+}
+
+.value-range input {
+  width: 40%;
+  text-align: right;
+}
+
+.value-range .unit {
+    max-width: 23px;
+    display: inline-block;
+}
+
+.value-range .dash {
+    width: 6%;
+    text-align: center;
+    display: inline-block;
+}
+
+.value-range input {
+    border-width: 2px;
+}
+
+.value-range input.min-value {
+ margin-right: 3px;
+ display: inline;
+
+}
+
+.value-range input.max-value {
+  margin-left: 3px;
+ display: inline;
+}
+
+.value-range .unit {
+  font-size: 12px;
+}

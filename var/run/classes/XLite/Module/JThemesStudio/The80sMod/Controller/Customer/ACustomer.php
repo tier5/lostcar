@@ -1,0 +1,72 @@
+<?php
+// vim: set ts=4 sw=4 sts=4 et:
+
+/**
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+namespace XLite\Module\JThemesStudio\The80sMod\Controller\Customer;
+
+use XLite\Module\JThemesStudio\The80sMod;
+
+ class ACustomer extends \XLite\Module\XC\CanadaPost\Controller\Customer\ACustomer implements \XLite\Base\IDecorator
+{
+    /**
+     * Get current selected country if available
+     *
+     * @return \XLite\Model\Country
+     */
+    public function getCurrentCountry()
+    {
+        $country = null;
+
+        if (The80sMod\Main::isModuleEnabled('XC\MultiCurrency')) {
+            $country = \XLite\Module\XC\MultiCurrency\Core\MultiCurrency::getInstance()->getSelectedCountry();
+        } elseif (The80sMod\Main::isModuleEnabled('XC\Geolocation')) {
+            $address = $this->getCart() && $this->getCart()->getProfile() && $this->getCart()->getProfile()->getShippingAddress()
+                ? $this->getCart()->getProfile()->getShippingAddress()
+                : null;
+
+            if (!$address) {
+                $country = \XLite\Model\Address::getDefaultFieldValue('country');
+            } else {
+                $country = $address->getCountry();
+            }
+        }
+
+        return $country;
+    }
+
+    /**
+     * Get current selected currency if available
+     *
+     * @return \XLite\Model\Currency
+     */
+    public function getCurrentCurrency()
+    {
+        $currency = null;
+
+        if (The80sMod\Main::isModuleEnabled('XC\MultiCurrency')) {
+            $currency = \XLite\Module\XC\MultiCurrency\Core\MultiCurrency::getInstance()->getSelectedMultiCurrency();
+        }
+
+        return $currency;
+    }
+
+    /**
+     * Return true if there are active currencies for currency selector
+     *
+     * @return boolean
+     */
+    public function isCurrencySelectorAvailable()
+    {
+        $result = false;
+
+        if (The80sMod\Main::isModuleEnabled('XC\MultiCurrency')) {
+            $result = \XLite\Module\XC\MultiCurrency\Core\MultiCurrency::getInstance()->hasMultipleCurrencies();
+        }
+
+        return $result;
+    }
+}

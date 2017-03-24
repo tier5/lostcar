@@ -1,0 +1,9 @@
+{##
+ # Header
+ #
+ # @ListChild (list="layout.header.topline", weight="10")
+ #}
+
+{% if this.config.Company.company_phone %}
+    <span class="phone">{{ this.config.Company.company_phone }}</span>
+{% endif %}

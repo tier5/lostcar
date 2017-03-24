@@ -1,0 +1,11 @@
+<div class="special-offer-no-create-form">
+  <p>{{ t('You have no special offer types enabled in your store. Please install at least one module that implements the special offers logic.') }}</p>
+  <ul class="special-offer-mods admin-welcome">
+    {% for module in this.getPromotedModules() %}
+      <li class="special-offer-mod {{ module.cssClass }}">
+        <div class="special-offer-mod__title"><a href="{{ module.url }}"><span class="special-offer-mod__name">{{ module.name }}</span></a></div>
+        <div class="special-offer-mod__descr">{{ module.promo }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

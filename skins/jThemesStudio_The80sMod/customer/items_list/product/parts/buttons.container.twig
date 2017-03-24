@@ -1,0 +1,10 @@
+{##
+ # Products list (list variant)
+ #
+ # @ListChild (list="itemsList.product.grid.customer.info", weight="50")
+ # @ListChild (list="itemsList.product.list.customer.info", weight="50")
+ #}
+
+<div class="product-buttons-contaner">
+    {{ widget_list('bcontainer', type='nested', product=this.product) }}
+</div>

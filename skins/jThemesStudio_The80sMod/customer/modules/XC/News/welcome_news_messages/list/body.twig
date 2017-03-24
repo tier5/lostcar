@@ -1,0 +1,20 @@
+{##
+ # News messages main template
+ #}
+
+<div class="welcomeNewsMessages">
+  {% if this.getPageData() %}
+
+      {% for model in this.getPageData() %}
+        <div class="newsMessage-cell">
+            <div class="newsMessage">
+                {{ widget_list('wrow', type='inherited', model=model) }}
+                <div class="newsInfo">
+                    {{ widget_list('wcrow', type='inherited', model=model) }}
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+
+  {% endif %}
+</div>

@@ -1,0 +1,31 @@
+{##
+ # Header
+ #
+ # @ListChild (list="welcome.top.banners.container", weight="200")
+ #}
+
+
+
+<div class="info-block">
+    {% if this.config.JThemesStudio.The80sMod.type1_top_banner2_image != '' %}
+        <img src="{{ this.config.JThemesStudio.The80sMod.type1_top_banner2_image }}" alt="" />
+    {% endif %}
+    <div class="info-content">
+        <div>
+            <div>
+                {% if this.config.JThemesStudio.The80sMod.type1_top_banner2_text1 != '' %}
+                    <h2> {{ this.config.JThemesStudio.The80sMod.type1_top_banner2_text1 }} </h2>
+                {% endif %}
+
+                {% if this.config.JThemesStudio.The80sMod.type1_top_banner2_text2 != '' %}
+                    <p>{{ this.config.JThemesStudio.The80sMod.type1_top_banner2_text2 }}</p>
+                {% endif %}
+
+                {% if this.config.JThemesStudio.The80sMod.type1_top_banner2_link != '' %}
+                    <div> <a href="{{ this.config.JThemesStudio.The80sMod.type1_top_banner2_link }}" class="btn btn-white"> {{ this.config.JThemesStudio.The80sMod.type1_top_banner2_button }} </a></div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+

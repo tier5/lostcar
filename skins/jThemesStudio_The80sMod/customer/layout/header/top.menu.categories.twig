@@ -1,0 +1,14 @@
+{##
+ # Header bar
+ #
+ # @ListChild (list="header.flycategories", weight="3")
+ #}
+
+{% if this.layout.isLayoutType1() or this.layout.isLayoutType2() or this.layout.isLayoutType4() %}
+<li class="leaf has-sub mega-dropdown mobile-hidden">
+    <span class="primary-title">Catalogue</span>
+    <div class="categories_menu">
+        {{ widget_list('catalog.top.menu') }}
+    </div>
+</li>
+{% endif %}

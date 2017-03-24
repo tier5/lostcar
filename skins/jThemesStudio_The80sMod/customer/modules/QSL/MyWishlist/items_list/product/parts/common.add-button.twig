@@ -1,0 +1,11 @@
+{##
+ #
+ #}
+
+{% if not this.isWishlistClose() %}
+    <a
+            href="javascript:void(0);"
+            title="{{ t('Add to wishlist') }}"
+            data-productid="{{ this.getProduct().getProductId() }}"
+            class="add-to-wishlist next-previous-assigned fa fa-heart {% if this.isProductInWishlist(this.getProduct()) %}added{% endif %}"></a>
+{% endif %}

@@ -1,0 +1,32 @@
+{##
+ # Banner rotation widget template
+ #}
+<div class="brands-logo-container pagination-rotator dark-elements {{ this.getBlockClasses() }}">
+
+        <h3>Product Brands</h3>
+        <div class="brands-logo-items row">
+            {% if this.isAutoBrandsImages() %}
+                {% for idx, _brand in this.getBrands() %}
+                    <div class="item">
+                        <a href="{{ url('brand', '', {'brand_id': _brand.0.brand_id}) }}" >
+                            {% if _brand.0.hasImage() %}
+                                {{ widget('\\XLite\\View\\Image', image=_brand.0.getImage(), maxWidth=this.getLogoWidth(), maxHeight=this.getLogoHeight(), centerImage='1', verticalAlign='middle', alt=_brand.0.getName()) }}
+                            {% endif %}
+                            {% if not _brand.0.hasImage() %}
+                                <span>{{ _brand.0.getName() }}</span>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endfor %}
+            {% else %}
+                {% for image in this.getImages() %}
+                    <div class="item">
+                        <a href="{{ image.brandsLogoItem.getLink() }}" class="item">
+                            <img src="{{ image.getFrontURL() }}" alt="{{ image.getAlt() }}" >
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+</div>

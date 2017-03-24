@@ -1,0 +1,40 @@
+{##
+ # Products list (sidebar variant)
+ #}
+
+{{ widget_list('itemsList.product.cart') }}
+
+<ul class="two-items-carousel">
+  {% set carouselItem = 1 %}
+
+  {% for i, product in this.getSideBarData() %}
+
+
+    {% if loop.index is odd and carouselItem == 1 %}
+      <li>
+      <ul class="list-body-sidebar products products-sidebar products-sidebar-small-thumbnails">
+      {% set carouselItem = 0 %}
+    {% endif %}
+
+    <li class="product-cell box-product item {{ this.getAdditionalItemClass(loop.index, loop.length) }}">
+
+      {{ this.getProductWidgetContent(product)|raw }}
+
+    </li>
+
+    {% if (loop.index0 is odd or loop.last) and carouselItem == 0 %}
+      </ul>
+      </li>
+      {% set carouselItem = 1 %}
+    {% endif %}
+
+  {% endfor %}
+</ul>
+{% if this.isShowMoreLink() %}
+  <ul>
+      <li class="more_link">
+        <a class="link" href="{{ this.getMoreLinkURL() }}">{{ this.getMoreLinkText() }}</a>
+      </li>
+  </ul>
+{% endif %}
+

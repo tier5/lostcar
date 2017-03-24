@@ -1,0 +1,30 @@
+{##
+ # Header
+ #
+ # @ListChild (list="welcome.favorite.block", weight="200")
+ #}
+
+{% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_enable %}
+<div class="favorite-banner box-hover">
+    {% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_image %}
+    <img src="{{ this.config.JThemesStudio.The80sMod.type2_favorite_banner_image }}" alt="" />
+    {% endif %}
+    <div class="banner-content">
+        <div class="text-middle">
+            <div class="tbl-cell">
+                {% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_link_text != '' %}
+                <h2>
+                    <a href="{{ this.config.JThemesStudio.The80sMod.type2_favorite_banner_link }}">{{ this.config.JThemesStudio.The80sMod.type2_favorite_banner_link_text }}</a>
+                </h2>
+                {% endif %}
+                {% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_text != '' %}
+                    <p class="sub-detail">{{ this.config.JThemesStudio.The80sMod.type2_favorite_banner_text }}</p>
+                {% endif %}
+                {% if this.config.JThemesStudio.The80sMod.type2_favorite_banner_discount != '' %}
+                    <p class="discount">{{ this.config.JThemesStudio.The80sMod.type2_favorite_banner_discount }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

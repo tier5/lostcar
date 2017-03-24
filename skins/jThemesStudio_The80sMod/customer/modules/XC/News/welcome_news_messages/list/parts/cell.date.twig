@@ -1,0 +1,8 @@
+{##
+ # News messages :: date cell
+ #
+ # @ListChild (list="itemsList.newsMessages.customer.top.wcrow", weight="100")
+ #}
+
+{% set date = this.formatDate(this.model.date, "%e %b, %Y") %}
+<span class="date"><span class="day">{{ date|date("d") }}</span><span class="month">{{ date|date("M") }}</span></span>

@@ -1,0 +1,16 @@
+{##
+ # Value range
+ #}
+
+{% if not this.displayLabelOnly() %}
+  <div class="value-range">
+    {#{% if this.getUnit() %}#}
+      {#<span class="unit">{{ this.getUnit() }}</span>#}
+    {#{% endif %}#}
+
+
+    <input type="text" value="{{ this.getRangeValue(0) }}" name="{{ this.getName() }}[0]" class="min-value form-control" data-unit="{% if this.getUnit() %}{{ this.getUnit() }}{% endif %}" data-price="{{ this.getMinValue() }}" placeholder="{% if this.getUnit() %}{{ this.getUnit() }}{% endif %}{{ this.getMinValue() }}" />
+    <span class="dash">&mdash;</span> 
+    <input type="text" value="{{ this.getRangeValue(1) }}" name="{{ this.getName() }}[1]" class="max-value form-control" data-unit="{% if this.getUnit() %}{{ this.getUnit() }}{% endif %}" data-price="{{ this.getMaxValue() }}" placeholder="{% if this.getUnit() %}{{ this.getUnit() }}{% endif %}{{ this.getMaxValue() }}" />
+  </div>
+{% endif %}

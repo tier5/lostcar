@@ -1,0 +1,12 @@
+{##
+ # Footer
+ #
+ # @ListChild (list="footer.textinfo.block", weight="300")
+ #}
+
+{% if this.config.JThemesStudio.The80sMod.typeC_instagramm_feed_enable %}
+<div class="footer_instagram_feed">
+    <h3>{{ t('Instagram Feed') }}</h3>
+    {{ widget_list('store.instagram.footer') }}
+</div>
+{% endif %}

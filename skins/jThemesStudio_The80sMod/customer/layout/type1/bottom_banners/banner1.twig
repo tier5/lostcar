@@ -1,0 +1,24 @@
+{##
+ # Header
+ #
+ # @ListChild (list="welcome.bottom.banners", weight="100")
+ #}
+
+
+{% if this.config.JThemesStudio.The80sMod.type1_bottom_big_banner1_link != '' %}
+<a href="{{ this.config.JThemesStudio.The80sMod.type1_bottom_big_banner1_link }}">
+{% else %}
+<span>
+{% endif %}
+
+
+    <span class="h2"> {{ this.config.JThemesStudio.The80sMod.type1_bottom_big_banner1_text1 }} </span>
+    <span class="text">{{ this.config.JThemesStudio.The80sMod.type1_bottom_big_banner1_text2 }} </span>
+
+    {#<span class="h2"> 01 </span>#}
+    {#<span class="text"> men’s jeans </span>#}
+{% if this.config.JThemesStudio.The80sMod.type1_bottom_big_banner1_link != '' %}
+</a>
+{% else %}
+</span>
+{% endif %}

@@ -1,0 +1,726 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Module fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Config:
+  - name: type1_top_banner
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 0
+    translations:
+      - code: en
+        option_name: 'Top banners'
+  - name: type1_top_banner_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 100
+    translations:
+      - code: en
+        option_name: 'Enable two top banners'
+  - name: type1_top_banner1_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/new_collection.jpg'
+    orderby: 200
+    translations:
+      - code: en
+        option_name: 'Left banner image'
+  - name: type1_top_banner1_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'new collection'
+    orderby: 300
+    translations:
+      - code: en
+        option_name: 'Left banner title'
+  - name: type1_top_banner1_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'winter 2015'
+    orderby: 400
+    translations:
+      - code: en
+        option_name: 'Left banner text'
+  - name: type1_top_banner1_button
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'shop now'
+    orderby: 500
+    translations:
+      - code: en
+        option_name: 'Left banner button text'
+  - name: type1_top_banner1_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#link1'
+    orderby: 600
+    translations:
+      - code: en
+        option_name: 'Left banner button link'
+  - name: type1_top_banner2_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/lookbook.jpg'
+    orderby: 700
+    translations:
+      - code: en
+        option_name: 'Right banner image'
+  - name: type1_top_banner2_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'LookBook 2016'
+    orderby: 800
+    translations:
+      - code: en
+        option_name: 'Right banner title'
+  - name: type1_top_banner2_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 900
+    translations:
+      - code: en
+        option_name: 'Right banner text'
+  - name: type1_top_banner2_button
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'shop now'
+    orderby: 1000
+    translations:
+      - code: en
+        option_name: 'Right banner button text'
+  - name: type1_top_banner2_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#link2'
+    orderby: 1100
+    translations:
+      - code: en
+        option_name: 'Right banner button link'
+  - name: type1_welcome_carousel
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 2000
+    translations:
+      - code: en
+        option_name: 'Text carousel'
+  - name: type1_welcome_carousel_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 2100
+    translations:
+      - code: en
+        option_name: 'Enable custom carousel on the home page'
+  - name: type1_welcome_carousel_bg
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/bg-1.jpg'
+    orderby: 2200
+    translations:
+      - code: en
+        option_name: 'URL for backgound carousel image'
+  - name: type1_welcome_carousel_code
+    category: 'JThemesStudio\The80sMod'
+    type: textarea
+    value: '<div class="item"><p>Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque.</p></div><div class="item"><p>Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque.</p><p>Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque.</p></div><div class="item"><p>Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque.</p></div>'
+    orderby: 2300
+    translations:
+      - code: en
+        option_name: 'Carousel elements code'
+  - name: type1_bottom_big_banners
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 3000
+    translations:
+      - code: en
+        option_name: 'Bottom promo images'
+  - name: type1_bottom_big_banners_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 3010
+    translations:
+      - code: en
+        option_name: 'Enable bottom promo images'
+  - name: type1_bottom_big_banner_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/promo-bg.jpg'
+    orderby: 3020
+    translations:
+      - code: en
+        option_name: 'Promo banner background image URL'
+  - name: type1_bottom_big_banner1_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '01'
+    orderby: 3030
+    translations:
+      - code: en
+        option_name: 'Promo banner #1 title'
+  - name: type1_bottom_big_banner1_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s jeans'
+    orderby: 3040
+    translations:
+      - code: en
+        option_name: 'Promo banner #1 text'
+  - name: type1_bottom_big_banner1_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 3050
+    translations:
+      - code: en
+        option_name: 'Promo banner #1 link'
+  - name: type1_bottom_big_banner2_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '02'
+    orderby: 3070
+    translations:
+      - code: en
+        option_name: 'Promo banner #2 title'
+  - name: type1_bottom_big_banner2_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'vintage'
+    orderby: 3080
+    translations:
+      - code: en
+        option_name: 'Promo banner #2 text'
+  - name: type1_bottom_big_banner2_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 3090
+    translations:
+      - code: en
+        option_name: 'Promo banner #2 link'
+  - name: type1_bottom_big_banner3_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '03'
+    orderby: 3110
+    translations:
+      - code: en
+        option_name: 'Promo banner #3 title'
+  - name: type1_bottom_big_banner3_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'premium pack'
+    orderby: 3120
+    translations:
+      - code: en
+        option_name: 'Promo banner #3 text'
+  - name: type1_bottom_big_banner3_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 3130
+    translations:
+      - code: en
+        option_name: 'Promo banner #3 link'
+  - name: type1_bottom_big_banner4_text1
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '04'
+    orderby: 3150
+    translations:
+      - code: en
+        option_name: 'Promo banner #4 title'
+  - name: type1_bottom_big_banner4_text2
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'shoes & bags'
+    orderby: 3160
+    translations:
+      - code: en
+        option_name: 'Promo banner #4 text'
+  - name: type1_bottom_big_banner4_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 3170
+    translations:
+      - code: en
+        option_name: 'Promo banner #4 link'
+  - name: type1_bottom_banners
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 4000
+    translations:
+      - code: en
+        option_name: 'Bottom banners'
+  - name: type1_bottom_banner1_img
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/small1.jpg'
+    orderby: 4050
+    translations:
+      - code: en
+        option_name: 'Image URL for bottom banner #1'
+  - name: type1_bottom_banner1_title
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'LookBook 2016'
+    orderby: 4100
+    translations:
+      - code: en
+        option_name: 'Title for bottom banner #1'
+  - name: type1_bottom_banner1_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 4150
+    translations:
+      - code: en
+        option_name: 'Link for bottom banner #1'
+  - name: type1_bottom_banner1_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 4200
+    translations:
+      - code: en
+        option_name: 'Text for bottom banner #1'
+  - name: type1_bottom_banner2_img
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type1/small2.jpg'
+    orderby: 4250
+    translations:
+      - code: en
+        option_name: 'Image URL for bottom banner #2'
+  - name: type1_bottom_banner2_title
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'Shoes collection'
+    orderby: 4300
+    translations:
+      - code: en
+        option_name: 'Title for bottom banner #2'
+  - name: type1_bottom_banner2_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 4350
+    translations:
+      - code: en
+        option_name: 'Link for bottom banner #2'
+  - name: type1_bottom_banner2_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 4400
+    translations:
+      - code: en
+        option_name: 'Text for bottom banner #2'
+  - name: type2_favorite_banner
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 10000
+    translations:
+      - code: en
+        option_name: 'Favorite block banner'
+  - name: type2_favorite_banner_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 10010
+    translations:
+      - code: en
+        option_name: 'Enable favorite block banner'
+  - name: type2_favorite_banner_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type2/favorite.jpg'
+    orderby: 10020
+    translations:
+      - code: en
+        option_name: 'Favorite block banner image'
+  - name: type2_favorite_banner_link_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'Sales &amp; Discounts'
+    orderby: 10030
+    translations:
+      - code: en
+        option_name: 'Favorite block banner link text'
+  - name: type2_favorite_banner_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 10040
+    translations:
+      - code: en
+        option_name: 'Favorite block banner link'
+  - name: type2_favorite_banner_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 10050
+    translations:
+      - code: en
+        option_name: 'Favorite block banner text'
+  - name: type2_favorite_banner_discount
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '-25%'
+    orderby: 10060
+    translations:
+      - code: en
+        option_name: 'Favorite block banner discount'
+  - name: type2_twitter_feed
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 11000
+    translations:
+      - code: en
+        option_name: 'Twitter feed block'
+  - name: type2_twitter_feed_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 11010
+    translations:
+      - code: en
+        option_name: 'Enable twitter feed block on home page'
+  - name: type2_twitter_feed_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type2/twitter_bg.jpg'
+    orderby: 10020
+    translations:
+      - code: en
+        option_name: 'Twitter feed block background image'
+  - name: type2_twitter_feed_account
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'x_cart'
+    orderby: 10030
+    translations:
+      - code: en
+        option_name: 'Twitter feed account'
+  - name: type2_bottom_banners
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 12000
+    translations:
+      - code: en
+        option_name: 'Bottom banners block'
+  - name: type2_bottom_banners_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 12010
+    translations:
+      - code: en
+        option_name: 'Enable bottom banners block on home page'
+  - name: type2_bottom_hbanner1_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type2/horizontal1.jpg'
+    orderby: 12020
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #1 image'
+  - name: type2_bottom_hbanner1_text_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'winter Look Guide'
+    orderby: 12030
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #1 link text'
+  - name: type2_bottom_hbanner1_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 12040
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #1 link'
+  - name: type2_bottom_hbanner1_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 12050
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #1 text'
+  - name: type2_bottom_hbanner2_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type2/horizontal2.jpg'
+    orderby: 12060
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 image'
+  - name: type2_bottom_hbanner2_text_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'Shoes collection'
+    orderby: 12070
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 link text'
+  - name: type2_bottom_hbanner2_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 12080
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 link'
+  - name: type2_bottom_hbanner2_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'women’s style'
+    orderby: 12090
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 text'
+  - name: type2_bottom_vbanner_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type2/vertical.jpg'
+    orderby: 12100
+    translations:
+      - code: en
+        option_name: 'Vertical banner image'
+  - name: type2_bottom_vbanner_text_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'Outerwear, your choice!'
+    orderby: 12110
+    translations:
+      - code: en
+        option_name: 'Vertical banner link text'
+  - name: type2_bottom_vbanner_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 12120
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 link'
+  - name: type2_bottom_info
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 13000
+    translations:
+      - code: en
+        option_name: 'Bottom information block'
+  - name: type2_bottom_info_text
+    category: 'JThemesStudio\The80sMod'
+    type: textarea
+    value: '<p>Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros. Donec id justo. Praesent porttitor.</p><p>Nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id nisl quis enim dignissim sagittis.</p>'
+    orderby: 13010
+    translations:
+      - code: en
+        option_name: 'Horizontal banner #2 link'
+  - name: type3_top_banners
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 14000
+    translations:
+      - code: en
+        option_name: 'Top banners'
+  - name: type3_top_banners_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 14010
+    translations:
+      - code: en
+        option_name: 'Enable top banners'
+  - name: type3_top_banner1_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type3/new_arrivals.jpg'
+    orderby: 14020
+    translations:
+      - code: en
+        option_name: 'Left top banner image'
+  - name: type3_top_banner1_title
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'new Arrival 2016'
+    orderby: 14030
+    translations:
+      - code: en
+        option_name: 'Left top banner title'
+  - name: type3_top_banner1_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'winter 2015'
+    orderby: 14040
+    translations:
+      - code: en
+        option_name: 'Left top banner text'
+  - name: type3_top_banner1_button_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'shop now'
+    orderby: 14050
+    translations:
+      - code: en
+        option_name: 'Left top banner button text'
+  - name: type3_top_banner1_button_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 14060
+    translations:
+      - code: en
+        option_name: 'Left top banner button link'
+  - name: type3_top_banner2_image
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'skins/jThemesStudio_The80sMod/customer/images/type3/lookbook.jpg'
+    orderby: 14070
+    translations:
+      - code: en
+        option_name: 'Right top banner image'
+  - name: type3_top_banner2_title
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'LOOKBOOK & TIPS'
+    orderby: 14080
+    translations:
+      - code: en
+        option_name: 'Right top banner title'
+  - name: type3_top_banner2_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'men’s style'
+    orderby: 14090
+    translations:
+      - code: en
+        option_name: 'Right top banner text'
+  - name: type3_top_banner2_button_text
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: 'shop now'
+    orderby: 14100
+    translations:
+      - code: en
+        option_name: 'Right top banner button text'
+  - name: type3_top_banner2_button_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 14110
+    translations:
+      - code: en
+        option_name: 'Right top banner button link'
+  - name: typeC_common_options
+    category: 'JThemesStudio\The80sMod'
+    type: separator
+    orderby: 60000
+    translations:
+      - code: en
+        option_name: 'Store settings'
+  - name: typeC_store_text
+    category: 'JThemesStudio\The80sMod'
+    type: textarea
+    value: 'Your favorite shop online now, we make all for your comfort. 80’s MOD is a Large Items Range and Fast Delivery'
+    orderby: 60010
+    translations:
+      - code: en
+        option_name: 'Store text in footer'
+  - name: typeC_instagramm_feed_enable
+    category: 'JThemesStudio\The80sMod'
+    type: checkbox
+    value: true
+    orderby: 60020
+    translations:
+      - code: en
+        option_name: 'Enable instagram feed in footer'
+  - name: typeC_instagramm_feed_code
+    category: 'JThemesStudio\The80sMod'
+    type: textarea
+    value: '<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style="max-width:658px;"><div style="padding:8px;"><div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"><div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" margin:8px 0 0 0; padding:0 4px;"><a href="https://www.instagram.com/p/7pKjfeRx8s/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#xcartguru Mike White speaks out at #xcartmeetup in Orlando. @allrocky has something to add too:)</a></p><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by X-Cart (@xcart) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-15T07:40:22+00:00">Sep 15, 2015 at 12:40am PDT</time></p></div></blockquote>'
+    orderby: 60030
+    translations:
+      - code: en
+        option_name: 'Instagram feed code'
+  - name: typeC_twitter_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60040
+    translations:
+      - code: en
+        option_name: 'Twitter link'
+  - name: typeC_facebook_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60050
+    translations:
+      - code: en
+        option_name: 'Facebook link'
+  - name: typeC_googlep_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60060
+    translations:
+      - code: en
+        option_name: 'Google plus link'
+  - name: typeC_pinterest_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60070
+    translations:
+      - code: en
+        option_name: 'Pinterest link'
+  - name: typeC_instagram_link
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60080
+    translations:
+      - code: en
+        option_name: 'Instagram link'
+  - name: typeC_email
+    category: 'JThemesStudio\The80sMod'
+    type: XLite\View\FormField\Input\Text
+    value: '#'
+    orderby: 60090
+    translations:
+      - code: en
+        option_name: 'E-mail address'
+
+XLite\Model\ImageSettings:
+  - model: XLite\Model\Image\Category\Image
+    code: Default
+    width: 100
+    height: 120
+  - model: XLite\Model\Image\Product\Image
+    code: LGThumbnailGrid
+    width: 262
+    height: 280
+  - model: XLite\Model\Image\Product\Image
+    code: LGThumbnailList
+    width: 262
+    height: 280
+  - model: XLite\Model\Image\Product\Image
+    code: Default
+    width: 366
+    height: 440
+
+XLite\Model\LanguageLabel:
+  - { name: 'Choose your favorite', translations: [{ code: en, label: 'Choose your favorite' }] }
+  - { name: 'Try your Best', translations: [{ code: en, label: 'Try your Best' }] }
+  - { name: 'Twitter Feed', translations: [{ code: en, label: 'Twitter Feed' }] }
+  - { name: 'Instagram Feed', translations: [{ code: en, label: 'Instagram Feed' }] }

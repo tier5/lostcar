@@ -1,0 +1,11 @@
+<div class="twitter-feed"{% if this.config.JThemesStudio.The80sMod.type2_twitter_feed_image != '' %} style="background-image: url('{{ this.config.JThemesStudio.The80sMod.type2_twitter_feed_image }}') ;"{% endif %}>
+    <div class="container">
+        <h2 class="section-title">{{ t('Twitter Feed') }}</h2>
+        {% if this.config.JThemesStudio.The80sMod.type2_twitter_feed_account != '' %}
+        <div class="twitter-wiget-content">
+            <a class="twitter-timeline" data-height="300" data-width="400" data-chrome="nofooter noheader noborders transparent" data-tweet-limit="1" href="https://twitter.com/{{ this.config.JThemesStudio.The80sMod.type2_twitter_feed_account }}">Tweets by {{ this.config.JThemesStudio.The80sMod.type2_twitter_feed_account }}</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        {% endif %}
+    </div>
+</div>

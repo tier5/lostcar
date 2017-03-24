@@ -1,0 +1,9 @@
+{##
+ # Location (breadcrumbs) for product page
+ #}
+
+{% if this.getTarget() == 'product' %}
+<div id="breadcrumb">
+    {{ widget_list('layout.main.breadcrumb') }}
+</div>
+{% endif %}

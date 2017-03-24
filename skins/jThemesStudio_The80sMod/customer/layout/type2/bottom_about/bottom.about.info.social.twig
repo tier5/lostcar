@@ -1,0 +1,31 @@
+{##
+ # Header
+ # @ListChild (list="store.info.footer", weight="400")
+ # @ListChild (list="welcome.textinfo.block.container", weight="300")
+ #}
+
+<ul class="list-inline social-media">
+    {% if this.config.JThemesStudio.The80sMod.typeC_twitter_link %}
+    <li> <a class="fa fa-twitter" href="{{ this.config.JThemesStudio.The80sMod.typeC_twitter_link }}"> </a> </li>
+    {% endif %}
+
+    {% if this.config.JThemesStudio.The80sMod.typeC_facebook_link %}
+        <li> <a class="fa fa-facebook" href="{{ this.config.JThemesStudio.The80sMod.typeC_facebook_link }}"> </a> </li>
+    {% endif %}
+
+    {% if this.config.JThemesStudio.The80sMod.typeC_googlep_link %}
+        <li> <a class="fa fa-google-plus" href="{{ this.config.JThemesStudio.The80sMod.typeC_googlep_link }}"> </a> </li>
+    {% endif %}
+
+    {% if this.config.JThemesStudio.The80sMod.typeC_pinterest_link %}
+        <li> <a class="fa fa-pinterest" href="{{ this.config.JThemesStudio.The80sMod.typeC_pinterest_link }}"> </a> </li>
+    {% endif %}
+
+    {% if this.config.JThemesStudio.The80sMod.typeC_instagram_link %}
+        <li> <a class="fa fa-instagram" href="{{ this.config.JThemesStudio.The80sMod.typeC_instagram_link }}"> </a> </li>
+    {% endif %}
+
+    {% if this.config.JThemesStudio.The80sMod.typeC_email %}
+        <li> <a class="fa fa-envelope" href="mailto:{{ this.config.JThemesStudio.The80sMod.typeC_email }}"> </a> </li>
+    {% endif %}
+</ul>
