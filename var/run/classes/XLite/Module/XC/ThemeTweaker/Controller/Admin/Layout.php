@@ -11,7 +11,7 @@ namespace XLite\Module\XC\ThemeTweaker\Controller\Admin;
 /**
  * Layout
  */
- class Layout extends \XLite\Module\XC\WebmasterKit\Controller\Admin\Layout implements \XLite\Base\IDecorator
+ class Layout extends \XLite\Controller\Admin\LayoutAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Define the actions with no secure token

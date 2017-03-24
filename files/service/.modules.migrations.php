@@ -294,4 +294,78 @@ return array (
     array (
     ),
   ),
+  '2017_03_24_18_07_32' => 
+  array (
+    'date' => '2017_03_24_18_07_32',
+    'current' => 
+    array (
+      1 => 'Amazon\\PayWithAmazon',
+      2 => 'XC\\ESelectHPP',
+      3 => 'XC\\AuctionInc',
+      4 => 'XC\\CustomProductTabs',
+      5 => 'XC\\UPS',
+      6 => 'XC\\WebmasterKit',
+      7 => 'XC\\NextPreviousProduct',
+      9 => 'XC\\SagePay',
+      12 => 'XC\\News',
+      13 => 'XC\\OgoneEcommerce',
+      14 => 'XC\\ThemeTweaker',
+      16 => 'XC\\Upselling',
+      17 => 'XC\\NewsletterSubscriptions',
+      20 => 'XC\\Sitemap',
+      21 => 'XC\\FroalaEditor',
+      22 => 'XC\\EPDQ',
+      23 => 'XC\\BulkEditing',
+      24 => 'XC\\FastLaneCheckout',
+      25 => 'XC\\IdealPayments',
+      26 => 'XC\\Concierge',
+      27 => 'XC\\UpdateInventory',
+      28 => 'XC\\FreeShipping',
+      30 => 'XC\\MailChimp',
+      31 => 'XC\\ProductFilter',
+      32 => 'XC\\Stripe',
+      33 => 'XC\\Reviews',
+      34 => 'XC\\CanadaPost',
+      35 => 'CDev\\Paypal',
+      36 => 'CDev\\Bestsellers',
+      38 => 'CDev\\USPS',
+      39 => 'CDev\\UserPermissions',
+      41 => 'CDev\\GoogleAnalytics',
+      42 => 'CDev\\SocialLogin',
+      43 => 'CDev\\XPaymentsConnector',
+      44 => 'CDev\\Quantum',
+      45 => 'CDev\\XMLSitemap',
+      46 => 'CDev\\Moneybookers',
+      47 => 'CDev\\SimpleCMS',
+      48 => 'CDev\\ContactUs',
+      49 => 'CDev\\SalesTax',
+      50 => 'CDev\\VolumeDiscounts',
+      51 => 'CDev\\TwoCheckout',
+      52 => 'CDev\\ProductAdvisor',
+      54 => 'CDev\\Sale',
+      55 => 'CDev\\FeaturedProducts',
+      56 => 'CDev\\FedEx',
+      57 => 'CDev\\GoSocial',
+      58 => 'CDev\\AustraliaPost',
+      59 => 'CDev\\AuthorizeNet',
+      60 => 'CDev\\Coupons',
+      62 => 'QSL\\FlyoutCategoriesMenu',
+      63 => 'QSL\\CloudSearch',
+      64 => 'QSL\\SpecialOffersBase',
+      461 => 'JThemesStudio\\The80sMod',
+    ),
+    'enabled' => 
+    array (
+    ),
+    'disabled' => 
+    array (
+      6 => 'XC\\WebmasterKit',
+    ),
+    'deleted' => 
+    array (
+    ),
+    'installed' => 
+    array (
+    ),
+  ),
 );

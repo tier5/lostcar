@@ -11,7 +11,7 @@ namespace XLite\Module\XC\ThemeTweaker\Controller;
 /**
  * Payment method
  */
-abstract class AController extends \XLite\Module\XC\WebmasterKit\Controller\AController implements \XLite\Base\IDecorator
+abstract class AController extends \XLite\Controller\AControllerAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Process request

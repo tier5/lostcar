@@ -13,7 +13,7 @@ use XLite\Module\XC\Concierge\Core\Mediator;
 /**
  * Logger
  */
-abstract class Logger extends \XLite\Module\XC\WebmasterKit\Logger implements \XLite\Base\IDecorator
+abstract class Logger extends \XLite\LoggerAbstract implements \XLite\Base\IDecorator
 {
     /**
      * @inheritdoc

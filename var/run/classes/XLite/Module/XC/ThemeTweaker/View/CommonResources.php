@@ -8,7 +8,7 @@
 
 namespace XLite\Module\XC\ThemeTweaker\View;
 
-abstract class CommonResources extends \XLite\Module\XC\WebmasterKit\View\CommonResources implements \XLite\Base\IDecorator
+abstract class CommonResources extends \XLite\View\CommonResourcesAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Register files from common repository

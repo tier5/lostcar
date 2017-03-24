@@ -11,7 +11,7 @@ namespace XLite\Module\XC\ThemeTweaker\Core;
 /**
  * Database
  */
- class Database extends \XLite\Module\XC\WebmasterKit\Core\Database implements \XLite\Base\IDecorator
+ class Database extends \XLite\Core\DatabaseAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Get repository

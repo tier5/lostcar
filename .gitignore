@@ -1,5 +1,6 @@
 nbproject
 etc/config.php
-images
+/images
 changelog
-images_bk
+/images_bk
+var/datacache

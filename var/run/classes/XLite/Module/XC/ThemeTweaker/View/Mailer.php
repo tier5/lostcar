@@ -11,7 +11,7 @@ namespace XLite\Module\XC\ThemeTweaker\View;
 /**
  * Theme tweaker template page view
  */
- class Mailer extends \XLite\Module\XC\WebmasterKit\View\Mailer implements \XLite\Base\IDecorator
+ class Mailer extends \XLite\View\MailerAbstract implements \XLite\Base\IDecorator
 {
     public function getNotificationEditableContent($dir, $data, $interface)
     {

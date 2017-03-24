@@ -1,4 +1,4 @@
-<?php die(); ?> 1490347083s:8236:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:1257:"
+<?php die(); ?> 1490362733s:8195:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:1216:"
 <div class="simple-search-product-form">
 
    
@@ -10,7 +10,7 @@
       <input type="hidden" name="mode" value="search" />
       <input type="hidden" name="searchInSubcats" value="Y" />
       <input type="hidden" name="including" value="all" />
-      <input type="hidden" name="returnURL" value="/lostcar/cart.php?target=product&amp;product_id=44" />
+      <input type="hidden" name="returnURL" value="/lostcar/" />
   </div>
     
 <div class="simple-search-box">

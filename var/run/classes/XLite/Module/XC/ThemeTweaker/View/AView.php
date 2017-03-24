@@ -11,7 +11,7 @@ namespace XLite\Module\XC\ThemeTweaker\View;
 /**
  * Abstract widget
  */
-abstract class AView extends \XLite\Module\XC\WebmasterKit\View\AView implements \XLite\Base\IDecorator
+abstract class AView extends \XLite\View\AViewAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Current templates tree

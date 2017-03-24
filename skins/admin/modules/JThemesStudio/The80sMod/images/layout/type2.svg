@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="106px" viewBox="0 0 98 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>layout 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="layout-2" transform="translate(49.000000, 53.100000) scale(1, -1) translate(-49.000000, -53.100000) translate(0.000000, 0.100000)">
+            <g id="products" transform="translate(0.000000, 48.000000)">
+                <polygon id="Right-column-Copy-2" fill="#D5D3D3" points="52 0.655634206 75 0.655634206 98 0.655634206 98 12.5411704 98 24.4267066 75 24.4267066 52 24.4267066 52 12.5411704"></polygon>
+                <polygon id="left-column" fill="#EDEDED" points="0 12.5257107 0 0.607660914 10.5 0.607660914 21 0.607660914 21 12.5257107 21 24.4437606 10.5 24.4437606 0 24.4437606"></polygon>
+                <polygon id="left-column-copy" fill="#EDEDED" points="26 0.607660914 36.5 0.607660914 47 0.607660914 47 12.5257107 47 24.4437606 36.5 24.4437606 26 24.4437606 26 12.5257107"></polygon>
+            </g>
+            <g id="products-copy" transform="translate(0.000000, 0.399988)" fill="#EDEDED">
+                <polygon id="Right-column-Copy" points="51 0.56793318 61.5 0.56793318 72 0.56793318 72 10.8635985 72 21.1592639 61.5 21.1592639 51 21.1592639 51 10.8635985"></polygon>
+                <polygon id="Right-column-Copy-2" points="77 0.56793318 87.5 0.56793318 98 0.56793318 98 10.8635985 98 21.1592639 87.5 21.1592639 77 21.1592639 77 10.8635985"></polygon>
+                <polygon id="left-column" points="0 10.8502068 0 0.526377044 10.5 0.526377044 21 0.526377044 21 10.8502068 21 21.1740366 10.5 21.1740366 0 21.1740366"></polygon>
+                <polygon id="left-column-copy" points="26 0.526377044 36.5 0.526377044 47 0.526377044 47 10.8502068 47 21.1740366 36.5 21.1740366 26 21.1740366 26 10.8502068"></polygon>
+            </g>
+            <polygon id="header" fill="#EDEDED" points="0 90.5600098 0 76 49 76 98 76 98 90.5600098 98 105.12002 49 105.12002 0 105.12002"></polygon>
+            <polygon id="header-copy" fill="#D5D3D3" points="0 101.37002 0 97.6200195 49 97.6200195 98 97.6200195 98 101.37002 98 105.12002 49 105.12002 0 105.12002"></polygon>
+            <polygon id="banner-copy" fill="#D5D3D3" points="0 39.5 0 34 49 34 98 34 98 39.5 98 45 49 45 0 45"></polygon>
+            <polygon id="banner-copy-2" fill="#EDEDED" points="0 30 0 26 49 26 98 26 98 30 98 34 49 34 0 34"></polygon>
+            <g id="products-copy-2" transform="translate(11.000000, 27.699976)" fill="#FFFFFF">
+                <polygon id="Right-column-Copy-2" points="60 0.471531929 68 0.471531929 76 0.471531929 76 2.47153193 76 4.47153193 68 4.47153193 60 4.47153193 60 2.47153193"></polygon>
+                <polygon id="Right-column-Copy" points="40 0.471531929 48 0.471531929 56 0.471531929 56 2.47153193 56 4.47153193 48 4.47153193 40 4.47153193 40 2.47153193"></polygon>
+                <polygon id="left-column-copy" points="20 0.437029551 28 0.437029551 36 0.437029551 36 2.43702955 36 4.43702955 28 4.43702955 20 4.43702955 20 2.43702955"></polygon>
+                <polygon id="left-column" points="0 2.43702955 0 0.437029551 8 0.437029551 16 0.437029551 16 2.43702955 16 4.43702955 8 4.43702955 0 4.43702955"></polygon>
+            </g>
+            <g id="navigation" transform="translate(94.500000, 86.500000) rotate(90.000000) translate(-94.500000, -86.500000) translate(89.000000, 85.000000)" fill="#F78601">
+                <polygon id="products-heading" points="0 0 1.25 0 2.5 0 2.5 1.25 2.5 2.5 1.25 2.5 0 2.5 0 1.25"></polygon>
+                <polygon id="products-heading-copy" points="4 0 5.25 0 6.5 0 6.5 1.25 6.5 2.5 5.25 2.5 4 2.5 4 1.25"></polygon>
+                <polygon id="products-heading-copy-2" points="8 0 9.25 0 10.5 0 10.5 1.25 10.5 2.5 9.25 2.5 8 2.5 8 1.25"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

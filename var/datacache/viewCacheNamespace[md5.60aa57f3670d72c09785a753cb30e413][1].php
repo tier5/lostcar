@@ -1,7 +1,0 @@
-<?php die(); ?> 1490347058s:1298:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:237:"
-<div class="remove-wrapper ">
-  <button type="button" class="remove uninstall" title="Uninstall" tabindex="-1"><i class="fa fa-trash-o"></i></button>
-  <input type="checkbox" name="switch[47][delete]" value="1" tabindex="-1" />
-</div>
-
-";s:6:"assets";a:4:{i:0;O:26:"XLite\Core\View\DTO\Assets":4:{s:6:"assets";a:0:{}s:5:"index";i:100;s:9:"interface";s:6:"common";s:5:"group";s:14:"getCommonFiles";}i:1;O:26:"XLite\Core\View\DTO\Assets":4:{s:6:"assets";a:2:{s:2:"js";a:3:{i:0;s:37:"modules/CDev/Paypal/button/default.js";i:1;s:19:"button/js/button.js";i:2;s:19:"button/js/remove.js";}s:3:"css";a:3:{i:0;a:3:{s:4:"file";s:14:"css/style.less";s:5:"media";s:6:"screen";s:5:"merge";s:28:"bootstrap/css/bootstrap.less";}i:1;s:28:"modules/CDev/Sale/css/lc.css";i:2;s:21:"button/css/button.css";}}s:5:"index";i:200;s:9:"interface";N;s:5:"group";s:12:"getResources";}i:2;O:26:"XLite\Core\View\DTO\Assets":4:{s:6:"assets";a:1:{s:3:"css";a:1:{i:0;s:37:"modules/CDev/SimpleCMS/page/style.css";}}s:5:"index";i:300;s:9:"interface";N;s:5:"group";s:13:"getThemeFiles";}i:3;O:26:"XLite\Core\View\DTO\Assets":4:{s:6:"assets";a:0:{}s:5:"index";i:1000;s:9:"interface";s:6:"custom";s:5:"group";s:26:"getThemeTweakerCustomFiles";}}s:8:"metaTags";a:0:{}}";
